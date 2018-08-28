@@ -14,8 +14,8 @@
     <a href="contacts.html">________Контакты________</a>
 </nav>
 
-    <table cellpadding="15" width="100%" cellspacing="0">
-        <tr>
+    <table border="1" cellpadding="15" width="100%" cellspacing="0">
+        <tr width="100%">
             <td width="150">
                 <img src="images/dogg.jpg" width="100" height="250" align="right">
             </td>
@@ -46,20 +46,28 @@
 
                     <form>
 
-                        <input type="text" name="firstname" placeholder="Ваше имя"/><br/><br/>
+                        <input type="text" size="15" required name="firstname" placeholder="Ваше имя"/><font color="red">*</font><br/><br/>
 
-                        <input type="text" name="lastname" placeholder="Ваша фамилия"/><br/><br/>
+                        <input type="text" size="15" name="lastname" placeholder="Ваша фамилия"/><br/><br/>
 
                         <label>Ваш пол</label><br/><br/>
                         <input type="radio" checked name="gender"/> Мужской <br/>
                         <input type="radio" name="gender"/> Женский <br/><br/>
 
-                        <input type="text" name="login" placeholder="Введите ваш логин"/><br/><br/>
+                        <input type="text" size="15" name="login" placeholder="Введите ваш логин"/><br/><br/>
 
-                        <input type="password" name="password" placeholder="Введите пароль"/><br/>
-                        <input type="password" placeholder="Повторите пароль"/><br/><br/>
+                        <input type="password" size="15" name="password" placeholder="Введите пароль"/><br/>
+                        <input type="password" size="15" placeholder="Повторите пароль"/><br/><br/>
 
-                        <input type="email" name="email" placeholder="Введите email"/><br/><br/>
+                        <input type="email" size="15" name="email" placeholder="Введите email"/><br/><br/>
+
+                        <textarea rows="5" placeholder="Расскажите о себе"></textarea><br/><br/>
+
+                        <label for="avatar">Выберите аватар<font color="red">*</font></label><br/><br/>
+                        <input type="file" id="avatar" name="avatar" placeholder="Выберите картинку для аватара"/><br/><br/>
+
+                        <input type="checkbox" required name="licence" value="Согласен"/> Принимаю условия лицензионного соглашения <font color="red">*</font><br/><br/>
+                        <input type="checkbox" name="advertisment" value="Согласен"/> Я хочу получать рассылку о новых товарах <br/><br/>
 
                         <input type="submit" value="Зарегистрироваться"/><br/> <br/>
                         <input type="reset" value="Очистить"/><br/>
@@ -68,8 +76,8 @@
             </td>
             <td colspan="2" height="500" valign="top" bgcolor="#ffffe0">
     <table>
-                <table border="1" width="50%" align="right">
-                    <h2 align="right">НАШИ ТОВАРЫ</h2>
+                <table border="1" width="100%">
+                    <h2 align="center">НАШИ ТОВАРЫ</h2>
                     <tr>
                         <th>№</th>
                         <th>Название</th>
@@ -95,9 +103,12 @@
                         <td>10 шт.</td>
                     </tr>
                 </table>
-                    <p><img src="images/fatcat.jpg" width="500" height="200" /></p>
+        <br/><br/>
+        <table>
+            <tr>
 
-
+                <td><p><img src="images/fatcat.jpg"/></p></td>
+                <td>
             <ul>
                 <li>
                     <h3>Акция до 30 августа!!!</h3>
@@ -108,9 +119,12 @@
                     <strong>Корма со сроком годности &lt; 3х месяцев скидка 50%!!!</strong>
                 </li>
             </ul>
+                </td>
+            </tr>
+        </table>
 
-                <h3 align="right"><a id="bliss"></a>Если кот ненаходит себе места:)))</h3>
-                <a href="crazy.html"><img src="images/crazy.jpg" width="120" height="100" align="right"></a>
+                <h3><a id="bliss"></a>Если кот ненаходит себе места, жми на него:)))</h3>
+                <a href="crazy.html"><img src="images/crazy.jpg" width="170" height="145"></a>
             </td>
         </tr>
         <tr>
