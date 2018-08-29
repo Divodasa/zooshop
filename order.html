@@ -29,34 +29,40 @@
 
         <h2>Оформить заказ</h2>
 
-        <input type="text" size="15" required name="firstname" placeholder="Ваше имя"/><font
-            color="red">*</font><br/><br/>
+                <input type="text" size="20" required name="firstname" placeholder="Ваше имя"/><font
+                    color="red">*</font><br/><br/>
 
-        <input type="text" size="15" name="lastname" placeholder="Ваша фамилия"/><br/><br/>
+                <input type="email" size="20" required name="email" placeholder="Введите email"/><font
+                    color="red">*</font><br/><br/>
 
-        <label>Ваш пол</label><br/><br/>
-        <input type="radio" checked name="gender"/> Мужской <br/>
-        <input type="radio" name="gender"/> Женский <br/><br/>
+                <input type="tel" size="20" required name="tel" placeholder="Номер телефона + 7 (978)"/><font
+                    color="red">*</font><br/><br/>
 
-        <input type="text" size="15" name="login" placeholder="Введите ваш логин"/><br/><br/>
+                <textarea rows="6" required
+                          placeholder="Ваш адрес: индекс, страна, область/край, улица, дом."></textarea><font
+                    color="red">*</font><br/>
 
-        <input type="password" size="15" name="password" placeholder="Введите пароль"/><br/>
-        <input type="password" size="15" placeholder="Повторите пароль"/><br/><br/>
+                <strong>Выберите товар</strong><br/>
 
-        <input type="email" size="15" name="email" placeholder="Введите email"/><br/><br/>
+                <select name="select size=8" required multiple>
+                    <option selected value="s1">Кошачий корм</option>
+                    <option value="s2">Собачий корм</option>
+                    <option value="s3">Львиный корм</option>
+                    <option value="s4">Дом для кота</option>
+                    <option value="s5">Декоративная кость</option>
+                    <option value="s6">Ошейник</option>
+                </select><font
+                    color="red">*</font><br/><br/>
 
-        <textarea rows="5" placeholder="Расскажите о себе"></textarea><br/><br/>
+                <input type="number" size="20" required name="number" placeholder="Количество, шт."/><font
+                    color="red">*</font><br/><br/>
 
-        <label for="avatar">Выберите аватар<font color="red">*</font></label><br/><br/>
-        <input type="file" id="avatar" name="avatar" placeholder="Выберите картинку для аватара"/><br/><br/>
+                <textarea rows="6" required
+                          placeholder="Примечание"></textarea><font
+                    color="red">*</font><br/><br/>
 
-        <input type="checkbox" required name="licence" value="Согласен"/> Принимаю условия лицензионного
-        соглашения <font color="red">*</font><br/><br/>
-        <input type="checkbox" name="advertisment" value="Согласен"/> Я хочу получать рассылку о новых
-        товарах <br/><br/>
-
-        <input type="submit" value="Зарегистрироваться"/><br/> <br/>
-        <input type="reset" value="Очистить"/><br/>
+                <input type="submit" value="Отправить"/><br/> <br/>
+                <input type="reset" value="Очистить"/><br/>
     </form>
         </td>
     </tr>
