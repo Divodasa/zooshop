@@ -20,7 +20,7 @@
     <tr>
         <td valign="top">
             <div>
-                <img src="images/catodog.gif" width="500"/>
+                <img src="images/message.jpg" width="500"/>
             </div>
         </td>
         <td align="center">
@@ -39,27 +39,24 @@
 
                 <b>Выберите тему и введите сообщение</b><br/><br/>
 
-                <strong>Выберите товар</strong><br/>
+                <strong>Выберите тему</strong><br/>
 
-                <select name="select size=8" required multiple>
-                    <option selected value="s1">Кошачий корм</option>
-                    <option value="s2">Собачий корм</option>
-                    <option value="s3">Львиный корм</option>
-                    <option value="s4">Дом для кота</option>
-                    <option value="s5">Декоративная кость</option>
-                    <option value="s6">Ошейник</option>
-                </select><font
-                    color="red">*</font><br/><br/>
-
-                <textarea rows="6" required
-                          placeholder="Ваш адрес: индекс, страна, область/край, улица, дом."></textarea><font
-                    color="red">*</font><br/>
-
-                <input type="number" size="20" required name="number" placeholder="Количество, шт."/><font
-                    color="red">*</font><br/><br/>
+                <select name="theme" required>
+                    <option selected value="s1">Благодарность</option>
+                    <option value="s2">Жалоба</option>
+                    <option value="s3">Предложение</option>
+                    <option value="s4">Сотрудничество</option>
+                    <option value="s5">Возврат</option>
+                    <option value="s6">Другое</option>
+                </select><font color="red">*</font><br/><br/>
 
                 <textarea rows="6" required
-                          placeholder="Примечание"></textarea><font
+                          placeholder="Введите сообщение"></textarea><font
+                    color="red">*</font><br/><br/>
+
+                <b>Введите капчу и нажмите отправить</b><br/><br/>
+
+                <input type="number" size="20" required name="firstnamе" placeholder="9+3x4"/><font
                     color="red">*</font><br/><br/>
 
                 <input type="submit" value="Отправить"/><br/> <br/>
