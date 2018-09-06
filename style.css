@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Neucha');
+@import url('https://fonts.googleapis.com/css?family=Chango');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 
 nav a {
     font: 16px SansSerif;
@@ -19,5 +22,26 @@ h1 {
 #dot {
     font-family: 'Neucha', cursive;
     font-size: 30px;
+}
+
+[type="submit"] {
+    font-family: 'Chango', cursive;
+    font-size: 15px;
+}
+
+.do {
+    font-family: 'Lobster', cursive;
+    font-size: 55px;
+    text-align: center;
+}
+
+#sl {
+    font-family: "Neucha", cursive;
+    font-size: 30px;
+}
+
+footer {
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
 }
 
