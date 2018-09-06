@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Chango');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
 
 nav a {
     font: 16px SansSerif;
@@ -43,5 +44,11 @@ h1 {
 footer {
     font-family: 'EB Garamond', serif;
     font-size: 24px;
+    color: #fcfdfd;
+}
+
+.d {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 25px;
 }
 
